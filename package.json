@@ -1,0 +1,16 @@
+{
+  "name": "inventory-tracker",
+  "version": "1.0.0",
+  "description": "A strongly typed inventory and order tracker written in TypeScript",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
